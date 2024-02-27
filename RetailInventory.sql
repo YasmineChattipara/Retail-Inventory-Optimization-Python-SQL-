@@ -233,6 +233,7 @@ WHERE Size IS NOT NULL; -- Add condition to avoid setting Size column to NULL
 SELECT * FROM Inventory_End;
 
 
+--Query to retieve only relevant data for Inventory Optimization
 
 SELECT
     ib.InventoryId,
